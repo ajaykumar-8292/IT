@@ -1,0 +1,579 @@
+body {
+        margin: 0px;
+        padding: 0px;
+        background-color:pink;
+        
+        
+      
+        
+    }
+    
+    
+    * {
+        text-decoration: none;
+    }
+    
+    .navbar {
+        background: rgb(20, 190, 220);
+        font-family: Arial, Helvetica, sans-serif;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-radius: 15px;
+        position: fixed;
+       width: 100%;
+       top: 0;
+       
+    }
+    
+    .navdiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+  
+    .logo a {
+        font-size: 35px;
+        color: black;
+        font-weight: 600;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: initial;
+        
+    }
+    
+    .logo:hover {
+        transform: scale(1.1);
+        border-radius: 15px;
+    }
+    
+    li {
+        list-style: none;
+        display: inline-block;
+    }
+    
+    li a {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 25px;
+    }
+    li a:hover{
+        
+        transform: scale(1.1);
+        border-radius: 10px;
+        display: inline-block;
+    }
+   
+   
+    
+    
+    .box1 {
+      padding-top: 30px;
+        height: 240px;
+        width: 100%;
+        background-color: rgb(119, 183, 185);
+        
+        text-align: justify;
+        font-size: 30px;
+        color: white;
+        border-radius: 20px;
+    }
+    
+    .p {
+        font-size: 20px;
+        text-align: justify;
+    }
+    
+    .button {
+        height: 40px;
+        margin: 160px;
+        background-color: rgb(238, 240, 234);
+        border-radius: 10px;
+        color: blue;
+        margin-left: 45%;
+        margin-top: 20px;
+    }
+    .button:hover{
+        background-color: #88ff00;
+        transform: scale(1.1);
+    }
+    
+    .abouta {
+        font-size: 40px;
+        color: blue;
+        border-radius: 10px;
+    }
+    
+    .about1 {
+        font-size: 20px;
+        border-radius: 10px;
+        border-radius: 10px;
+    }
+    
+    .box2 {
+        width: 50%;
+        height: 625px;
+        background-color: rgb(119, 183, 185);
+        border-radius: 20px;
+    }
+    
+    .Admission {
+        color: blue;
+        font-size: 40px;
+    }
+    
+    .form {
+        width: 100%;
+        height: 700px;
+    }
+    
+    form label {
+        font-size: 25px;
+        grid-column: auto;
+    }
+    
+    .button1 {
+        height: 40px;
+        width: 100px;
+        margin: 160px;
+        background-color: rgb(238, 240, 234);
+        border-radius: 10px;
+        color: blue;
+        margin-left: 45%;
+        margin-top: 25px;
+        font-size: 20px;
+    }
+    .button1:hover{
+        transform: scale(1.1);
+        background-color: #0078ff;
+
+    }
+    
+    .form {
+        margin-left: 20px;
+    }
+    
+    #A {
+        width: 84%;
+        height: 25px;
+        border-radius: 10px;
+        background-color: #d1c9c9;
+    }
+    
+    #B {
+        width: 84%;
+        height: 25px;
+        border-radius: 10px;
+        background-color: #d1c9c9;
+    }
+    
+    #C {
+        width: 84%;
+        height: 25px;
+        border-radius: 10px;
+        background-color: #d1c9c9;
+    }
+    
+    #D {
+        width: 84%;
+        height: 25px;
+        border-radius: 10px;
+        background-color: #d1c9c9;
+    }
+    
+    #F {
+        width: 84%;
+        height: 25px;
+        border-radius: 10px;
+        background-color: #d1c9c9;
+    }
+    .img-box{
+       
+        width: 45%;
+        height: 619px;
+       margin-top: -620px;
+       margin-left: 52%;
+       border-radius: 10px;
+    }
+    img{
+        width: 100%;
+        height: 619px;
+        border-radius: 10px;
+    }
+    img:hover{
+        transform: scale(1.1);
+    }
+    .img-box{
+overflow: hidden;
+position: relative;
+    }
+    #slides{
+        display: flex;
+        width: 100%;
+        animation:slide 9s infinite;
+
+    }
+    #slides img{
+        width: 100%;
+        height: 619px;
+        object-fit: cover;
+    }
+    @keyframes slide{
+        0%{
+            transform: translatex(0%);
+        }
+        33%{
+            transform: translatex(0%);
+        }
+        38%{
+            transform: translatex(-100%);
+        }
+        66%{
+            transform: translatex(-100%);
+        }
+        71%{
+            transform: translatex(-200%);
+        }
+        100%{
+            transform: translatex(-200%);
+        }
+    }
+    
+    select {
+        width: 85%;
+        height: 25px;
+        border-radius: 10px;
+        background-color: #d1c9c9;
+    }
+    section option {
+        border: solid 1px black;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+    }
+    .placement-section {
+  padding: 60px 20px;
+}
+
+.placement-section h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+  margin-left: 30%;
+}
+
+.highlight {
+  color: #0078ff;
+  font-weight: 600;
+}
+
+.logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.logo-container img {
+  height: 80px;
+  transition: transform 0.3s ease;
+}
+
+.logo-container img:hover {
+  transform: scale(1.1);
+}
+
+.btn {
+  display: inline-block;
+  background-color: #00fff2;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+  margin-left: 50%;
+}
+
+
+
+.slider{
+    width:100%;
+    overflow:hidden;
+    position:relative;
+    margin-top:40px;
+}
+
+/* Moving Track */
+.slide-track{
+    display:flex;
+    width:calc(250px * 8);
+    animation:scroll 15s linear infinite;
+}
+
+/* Image Box */
+.slide{
+    width:250px;
+    height:160px;
+    margin:10px;
+    overflow:hidden;
+    border-radius:10px;
+}
+
+/* Images */
+.slide img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:0.5s;
+}
+
+/* Mouse Hover Zoom */
+.slide img:hover{
+    transform:scale(1.1);
+}
+
+/* Left to Right Animation */
+@keyframes scroll{
+    0%{
+        transform:translateX(-100%);
+    }
+    100%{
+        transform:translateX(100%);
+    }
+}
+/* =========================
+   MOBILE RESPONSIVE CSS
+   Is code ko style.css ke END me paste karein.
+   Aapke existing code ko change karne ki zarurat nahi.
+========================= */
+
+/* Tablet View */
+@media screen and (max-width: 720px) {
+    .navbar {
+        width: 100%;
+        left: 0;
+        right: 0;
+        border-radius: 0;
+        padding: 10px 15px;
+        box-sizing: border-box;
+    }
+
+    .logo a {
+        font-size: 28px;
+    }
+
+    li a {
+        font-size: 16px;
+        margin-right: 15px;
+    }
+
+    .button,
+    .button1,
+    .btn {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .placement-section h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+
+/* Mobile View */
+@media screen and (max-width: 720px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        margin-right: 0;
+    }
+
+    /* Navbar */
+    .navbar {
+        width: 100%;
+        left: 0;
+        right: 0;
+        border-radius: 0;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .navdiv {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo a {
+        font-size: 24px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        display: block;
+        margin: 8px 0;
+    }
+
+    li a {
+        font-size: 18px;
+        margin-right: 0;
+    }
+
+    /* Hero Section */
+    .box1 {
+        height: auto;
+        padding: 120px 15px 30px 15px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .box1 h2 {
+        font-size: 28px;
+        line-height: 1.4;
+    }
+
+    .p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .button {
+        margin: 20px auto;
+        display: block;
+        width: 180px;
+    }
+
+    /* About Section */
+    .abouta {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .about1 {
+        font-size: 16px;
+        text-align: justify;
+        padding: 0 10px;
+    }
+
+    /* Admission Form */
+    .box2 {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .Admission {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .form {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    form label {
+        font-size: 18px;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    #A,
+    #B,
+    #C,
+    #D,
+    #F,
+    select,
+    input[type="file"] {
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 5px;
+    }
+
+    .button1 {
+        width: 150px;
+        margin: 20px auto;
+        display: block;
+    }
+
+    /* Placement Section */
+    .placement-section {
+        padding: 40px 10px;
+    }
+
+    .placement-section h2 {
+        font-size: 24px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* Slider */
+    .slide {
+        width: 180px;
+        height: 110px;
+    }
+
+    .slide-track {
+        width: calc(190px * 8);
+    }
+
+    /* Explore Button */
+    .btn {
+        margin: 20px auto;
+        display: block;
+        width: fit-content;
+        text-align: center;
+    }
+}
+
+
+/* Small Mobile View */
+@media screen and (max-width: 480px) {
+
+    .logo a {
+        font-size: 20px;
+    }
+
+    .box1 h2 {
+        font-size: 22px;
+    }
+
+    .p {
+        font-size: 14px;
+    }
+
+    .abouta,
+    .Admission {
+        font-size: 24px;
+    }
+
+    form label {
+        font-size: 16px;
+    }
+
+    .placement-section h2 {
+        font-size: 20px;
+    }
+
+    .slide {
+        width: 140px;
+        height: 90px;
+    }
+
+    .slide-track {
+        width: calc(150px * 8);
+    }
+}
+
